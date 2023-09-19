@@ -17,7 +17,7 @@ body{
     position: relative;
     transform: rotate(-45deg);
     box-shadow: 0 0 50px #fd0e42;
-    animation: heart alternate   .5s linear infinite;
+    animation: heart alternate  .5s linear infinite;
 }
 .heart::before{
     content: "";
@@ -46,4 +46,22 @@ body{
     100%{
         transform:rotate(-45deg) scale(1.2);
     }
+}
+@keyframes heart1 {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform:scale(1.2);
+    }
+}
+.hongtran{
+    position: relative;
+    top: 200px;
+    right: 130px;
+    color: #fd0e42;
+    font-size: 20px;
+    font-weight: bold;
+    animation: heart1 alternate  .5s linear infinite;
+
 }
