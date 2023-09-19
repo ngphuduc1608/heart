@@ -17,7 +17,7 @@ body{
     position: relative;
     transform: rotate(-45deg);
     box-shadow: 0 0 50px #fd0e42;
-    animation: heart  .5s linear infinite;
+    animation: heart alternate   .5s linear infinite;
 }
 .heart::before{
     content: "";
